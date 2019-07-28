@@ -41,7 +41,7 @@ $pagination = pagination($blogPosts, ['baseUrl' => "./"]);
 	<?= $pagination ?>
 
 	<!-- BLOG POSTS -->
-	<div class='blog=article'>
+	<div class='blog-article'>
 		<?php
 			foreach ($blogPosts as $item) {
 				echo files()->render('views/blog/parts/_blog-article.php',

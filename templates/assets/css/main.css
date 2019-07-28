@@ -225,6 +225,22 @@ ul.breadcrumb li a:hover {
 	color: #01447e;
 }
 
+/* BLOG */
+
+article.blog-article figure > div {
+	max-width: 640px;
+}
+
+.sidebar-tags {
+	display: flex;
+	flex-wrap: wrap;
+}
+.sidebar-tags li {
+	list-style: none;
+	text-transform: uppercase;
+	padding-right: 2rem;
+}
+
 /* SOCIAL PROFILES */
 
 .social-profiles svg:hover {
