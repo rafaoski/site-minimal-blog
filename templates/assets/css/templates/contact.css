@@ -1,0 +1,11 @@
+.contact-body, .google-map { flex-wrap: wrap; }
+.contact-info { font-size: 20px; padding: 20px; }
+.contact-info a { color: red; }
+.search-form input { background: none; }
+.contact-info {  width: 40%; }
+.template-contact iframe { width: 55%; }
+
+@media screen and (max-width: 1024px) {
+	.contact-info {  width: 100%; }
+	.template-contact iframe { width: 100% }
+}

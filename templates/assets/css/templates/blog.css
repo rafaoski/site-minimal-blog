@@ -1,0 +1,20 @@
+article.blog-article figure > div {
+	max-width: 640px;
+}
+
+.sidebar-tags {
+	display: flex;
+	flex-wrap: wrap;
+}
+.sidebar-tags li {
+	list-style: none;
+	text-transform: uppercase;
+	padding-right: 2rem;
+}
+
+/* FEATHER ICONS */
+
+.blog-article .feather, .content-sidebar .feather {
+	width: 25px;
+	height: 25px;
+}

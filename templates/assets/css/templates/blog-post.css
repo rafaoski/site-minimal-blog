@@ -1,0 +1,37 @@
+/* BLOG CONTENT */
+
+.content-article {
+	grid-area: article;
+  }
+
+.content-sidebar {
+	grid-area: sidebar;
+}
+
+.content-post {
+	display: grid;
+
+	grid-template-areas:
+	"article sidebar";
+
+	grid-template-columns: 5fr 2fr;
+	grid-template-rows: auto;
+	grid-gap: 10px;
+
+	/* height: 100vh; */
+}
+
+/* FEATHER ICONS */
+
+.blog-article .feather, .content-sidebar .feather {
+	width: 25px;
+	height: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+
+	.content-post {
+		display: block;
+	}
+
+}
