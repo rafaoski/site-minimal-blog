@@ -22,18 +22,6 @@ if(!defined("PROCESSWIRE")) die();
 
 /*** SITE CONFIG *************************************************************************/
 
-/**
- * Enable debug mode?
- *
- * Debug mode causes additional info to appear for use during dev and debugging.
- * This is almost always recommended for sites in development. However, you should
- * always have this disabled for live/production sites.
- *
- * @var bool
- *
- */
-$config->debug = false;
-
 $config->prependTemplateFile = '_init.php';
 $config->appendTemplateFile = '_main.php';
 $config->useMarkupRegions = true;
