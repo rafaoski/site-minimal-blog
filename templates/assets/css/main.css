@@ -241,6 +241,11 @@ article.blog-article figure > div {
 	padding-right: 2rem;
 }
 
+.blog-article .feather, .content-sidebar .feather {
+	width: 25px;
+	height: 25px;
+}
+
 /* SOCIAL PROFILES */
 
 .social-profiles svg:hover {

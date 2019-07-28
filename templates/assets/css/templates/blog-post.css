@@ -21,13 +21,6 @@
 	/* height: 100vh; */
 }
 
-/* FEATHER ICONS */
-
-.blog-article .feather, .content-sidebar .feather {
-	width: 25px;
-	height: 25px;
-}
-
 @media screen and (max-width: 1024px) {
 
 	.content-post {
