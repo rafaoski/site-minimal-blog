@@ -18,6 +18,7 @@ if(page()->images && count(page()->images)) {
 <head id='html-head'>
 <?php // site head
 	echo siteHead();
+	// echo gwCode( setting('gw-code') );
 ?>
 </head>
 <body id='html-body' class='<?= setting('body-classes')->implode(' ') ?>'<?= backgroundImage(['img' => $img]) ?>>
@@ -84,7 +85,6 @@ if(page()->images && count(page()->images)) {
 <?php
 // Google Fonts
 echo googleFonts( ['fonts' => ['Nunito:200,600']] );
-// echo gwCode( setting('gw-code') );
 // echo gaCode( setting('ga-code') );
 ?>
 <script>
